@@ -4,17 +4,7 @@ import { createGlobalStyle } from 'styled-components'
 import {reset} from 'styled-reset'
 
 const GlobalStyle = createGlobalStyle`
-  /* css 스타일 리셋 */
   ${reset}
-
-  /* 
-    100 Thin
-    300 Light
-    400 Regular
-    500 Medium
-    700 Bold
-    800 ExtraBold
-  */
 
   @font-face {
     font-family: 'Daeojamjil';
